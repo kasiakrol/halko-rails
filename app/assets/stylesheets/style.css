@@ -1,0 +1,29 @@
+body{
+   background-color: whitesmoke;
+}
+h1{
+   color:blue;
+   text-align: center;
+   font-size: 130px;
+   font-family: 'Roboto';
+}
+p{
+   color:red;
+   text-align: center;
+   font-size: 160px;
+   font-family: 'Roboto';
+}
+
+h2{
+    margin-left: 10%;
+    font-family: 'Roboto';
+}
+
+h4{
+    margin-left: 10%;
+    font-family: 'Roboto';
+}
+li{
+    margin-left: 10%;
+    font-family: 'Roboto';
+}

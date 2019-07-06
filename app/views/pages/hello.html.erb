@@ -1,0 +1,27 @@
+<h1>Cześć, <%= @user.name %>!</h1>
+<h2>Jest, <%= @czas %> </h2>
+<h2>Masz, <%= @user.age %> lat </h2>
+<h2>Miasto, <%= @user.city %> </h2>
+
+<h4> Moje ulubione rzeczy </h4>
+
+<ul>
+<% @rzeczy_ktore_lubie.each do |rzecz| %>
+  <li><%= rzecz %></li>
+<% end %>
+</ul>
+
+
+<h4> Moje ulubione płyty </h4>
+<ul>
+<% @user.albums.each do |plyta| %>
+  <li>Autor: <%= plyta.artist%> Tytuł: <%= plyta.title%> Rok: <%= plyta.year%></li>
+  <% end %>
+  </ul>
+
+
+
+<p> ... </p>
+<p> OCELOTY </p>
+
+
